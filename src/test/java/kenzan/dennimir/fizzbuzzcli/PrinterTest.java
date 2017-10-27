@@ -1,4 +1,4 @@
-package kenzan.dennimir.fizzbuzzCLI;
+package kenzan.dennimir.fizzbuzzcli;
 
 import junit.framework.TestCase;
 

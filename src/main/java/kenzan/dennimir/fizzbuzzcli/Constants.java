@@ -12,7 +12,8 @@ public final class Constants
 	public static final  String RESULT_TITLE_PRINT = "FizzBuzz Results";
 	public static final  String DIVIDING_LINE_PRINT = "==============================";
 	public static final  String FIZZ = "Fizz";
-	public static final  String BUZZ = "Buzz";	
+	public static final  String BUZZ = "Buzz";
+	public static final  String FIZZBUZZ = "FizzBuzz";
 	public static final  String INPUT_ERROR_MESSAGE = "Wrong input, please enter the integer number between 0 and 100 only!";
 	
 	public static final  int MULTIPLIER_THREE = 3;
