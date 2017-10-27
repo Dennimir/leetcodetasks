@@ -18,4 +18,5 @@ public final class Constants
 	
 	public static final  int MULTIPLIER_THREE = 3;
 	public static final  int MULTIPLIER_FIVE = 5;
+	public static final  int MULTIPLIER_FIFTEEN = 15;
 }

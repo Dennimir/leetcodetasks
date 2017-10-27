@@ -1,25 +1,56 @@
 package kenzan.dennimir.fizzbuzzcli;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class FizzBuzzFinder
 {
 	/**
 	 * @param upperBoundary
-	 * @return Map <String, int[]>
+	 * @return Map <String, List<Integer>>
 	 */
-	public Map <String, int[]> findFizzBuzz(int upperBoundary)
+	public Map <String, List<Integer>> findFizzBuzz(int upperBoundary)
 	{
-		Map <String, int[]> result = new HashMap<>();
+		Map <String,List<Integer>> result = new HashMap<>();		
+
+		List<Integer> intListFizzBuzz = new ArrayList<>();		
+		List<Integer> intListFizz = new ArrayList<>();
+		List<Integer> intListBuzz = new ArrayList<>();
 		
-		int[] intLine = {1,2,3,4};
+		getListsFizzBuzz(upperBoundary, intListFizzBuzz, intListFizz, intListBuzz);		
 		
-		result.put(Constants.FIZZ, intLine);
-		result.put(Constants.BUZZ, intLine);
-		result.put(Constants.FIZZBUZZ, intLine);
+		result.put(Constants.FIZZ, intListFizz);
+		result.put(Constants.BUZZ, intListBuzz);
+		result.put(Constants.FIZZBUZZ, intListFizzBuzz);
 		
 		return result;		
+	}
+
+	/**
+	 * @param upperBoundary
+	 * @param intListFizzBuzz
+	 * @param intListFizz
+	 * @param intListBuzz
+	 */
+	private void getListsFizzBuzz(int upperBoundary, List<Integer> intListFizzBuzz, List<Integer> intListFizz, List<Integer> intListBuzz)
+	{
+		for (int i = 1; i <= upperBoundary; i++)
+		{
+			if (i % Constants.MULTIPLIER_FIFTEEN == 0)
+			{
+				intListFizzBuzz.add(i);
+            }
+			else if (i % Constants.MULTIPLIER_THREE == 0)
+			{
+				intListFizz.add(i);
+            }
+			else if (i % Constants.MULTIPLIER_FIVE == 0)
+			{
+				intListBuzz.add(i);
+            }
+		}
 	}
 
 }

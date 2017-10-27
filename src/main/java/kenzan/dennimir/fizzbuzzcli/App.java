@@ -1,5 +1,6 @@
 package kenzan.dennimir.fizzbuzzcli;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -18,7 +19,7 @@ public class App
         InputHandler mInputHandler = new InputHandler();
         
         int mUpperBoundary = 0;
-        Map <String, int[]> mResult = null;        
+        Map <String, List<Integer>> mResult = null;        
       
        	mPrinter.printText(Constants.REQUEST_INPUT_PRINT); 
        	

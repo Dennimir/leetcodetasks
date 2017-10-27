@@ -2,6 +2,7 @@ package kenzan.dennimir.fizzbuzzcli;
 
 import java.util.Map;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author Denis
@@ -20,10 +21,20 @@ public class Printer
 	/**
 	 * @param result
 	 */
-	public void printResult(Map <String, int[]> result)
-	{	
-		System.out.println(Constants.FIZZ + ": " +Arrays.toString(result.get(Constants.FIZZ)));
-		System.out.println(Constants.BUZZ + ": " +Arrays.toString(result.get(Constants.BUZZ)));
-		System.out.println(Constants.FIZZBUZZ + ": " +Arrays.toString(result.get(Constants.FIZZBUZZ)));
+	public void printResult(Map <String, List<Integer>> result)
+	{		
+		System.out.println(Constants.FIZZ + ": " + getValues(Constants.FIZZ, result));
+		System.out.println(Constants.BUZZ + ": " + getValues(Constants.BUZZ, result));
+		System.out.println(Constants.FIZZBUZZ + ": " + getValues(Constants.FIZZBUZZ, result));
+	}
+
+	/**
+	 * @param key
+	 * @param result
+	 * @return String
+	 */
+	private String getValues(String key, Map <String, List<Integer>> result)
+	{
+		return (result.get(key) != null) ? result.get(key).toString() : "[ ]";		
 	}
 }
