@@ -19,7 +19,7 @@ public class Printer
 	}
 	
 	/**
-	 * @param result
+	 * @param Map <String, List<Integer>>
 	 */
 	public void printResult(Map <String, List<Integer>> result)
 	{		
@@ -29,8 +29,8 @@ public class Printer
 	}
 
 	/**
-	 * @param key
-	 * @param result
+	 * @param String
+	 * @param Map <String, List<Integer>>
 	 * @return String
 	 */
 	private String getValues(String key, Map <String, List<Integer>> result)

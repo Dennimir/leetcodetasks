@@ -63,8 +63,7 @@ public class PrinterTest extends TestCase
 		resultList.add(2);
 		resultList.add(3);		
 		result.put(Constants.FIZZ, resultList);
-		result.put(Constants.BUZZ, resultList);
-			
+		result.put(Constants.BUZZ, resultList);			
 		
 		try
 		{
@@ -76,6 +75,5 @@ public class PrinterTest extends TestCase
 			exception = e;
 		}		
 		Assert.assertNull(exception);
-	}
-	
+	}	
 }

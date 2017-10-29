@@ -6,6 +6,9 @@ import java.io.InputStreamReader;
 
 public class InputHandler
 {
+	/**
+	 * @return Integer
+	 */
 	public int getInput()
 	{		
 		int upperBoundary = 0;
