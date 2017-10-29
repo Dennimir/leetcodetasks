@@ -1,7 +1,12 @@
+/*
+ * Class name: Printer
+ * Author: DenisM
+ * Date: 29.10.2017
+ * Description: Printer
+ */
 package kenzan.dennimir.fizzbuzzcli;
 
 import java.util.Map;
-import java.util.Arrays;
 import java.util.List;
 
 /**

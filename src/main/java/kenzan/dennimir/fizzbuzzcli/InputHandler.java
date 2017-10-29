@@ -1,3 +1,9 @@
+/*
+ * Class name: InputHandler
+ * Author: DenisM
+ * Date: 29.10.2017
+ * Description: Input handler
+ */
 package kenzan.dennimir.fizzbuzzcli;
 
 import java.io.BufferedReader;
@@ -11,8 +17,17 @@ public class InputHandler
 	 */
 	public int getInput()
 	{		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));		
+        return validateAndReturnInput(br);
+	}
+
+	/**
+	 * @param BufferedReader
+	 * @return Integer
+	 */
+	protected int validateAndReturnInput(BufferedReader br)
+	{
 		int upperBoundary = 0;
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		while (true)
 		{
 			try
@@ -28,6 +43,6 @@ public class InputHandler
         		System.err.println(Constants.INPUT_ERROR_MESSAGE);            
         	}
 		}
-        return upperBoundary;
+		return upperBoundary;
 	}
 }

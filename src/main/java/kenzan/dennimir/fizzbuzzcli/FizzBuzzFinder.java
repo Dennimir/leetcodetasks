@@ -1,3 +1,9 @@
+/*
+ * Class name: FizzBuzzFinder
+ * Author: DenisM
+ * Date: 29.10.2017
+ * Description: FizzBuzz logic implemetation class
+ */
 package kenzan.dennimir.fizzbuzzcli;
 
 import java.util.ArrayList;
