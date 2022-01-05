@@ -4,7 +4,7 @@
  * Date: 29.10.2017
  * Description: Input handler
  */
-package kenzan.dennimir.fizzbuzzcli;
+package kenzan.fizzbuzzcli;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -21,10 +21,6 @@ public class InputHandler
         return validateAndReturnInput(br);
 	}
 
-	/**
-	 * @param BufferedReader
-	 * @return Integer
-	 */
 	protected int validateAndReturnInput(BufferedReader br)
 	{
 		int upperBoundary = 0;

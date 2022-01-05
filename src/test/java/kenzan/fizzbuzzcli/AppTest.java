@@ -1,4 +1,4 @@
-package kenzan.dennimir.fizzbuzzcli;
+package kenzan.fizzbuzzcli;
 
 import java.io.ByteArrayInputStream;
 
