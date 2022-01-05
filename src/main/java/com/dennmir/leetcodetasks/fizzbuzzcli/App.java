@@ -4,7 +4,7 @@
  * Date: 29.10.2017
  * Description: FizBuzz main class
  */
-package kenzan.fizzbuzzcli;
+package com.dennmir.leetcodetasks.fizzbuzzcli;
 
 import java.util.List;
 import java.util.Map;

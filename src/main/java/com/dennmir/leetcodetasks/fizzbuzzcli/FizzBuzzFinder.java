@@ -4,7 +4,7 @@
  * Date: 29.10.2017
  * Description: FizzBuzz logic implemetation class
  */
-package kenzan.fizzbuzzcli;
+package com.dennmir.leetcodetasks.fizzbuzzcli;
 
 import java.util.ArrayList;
 import java.util.HashMap;

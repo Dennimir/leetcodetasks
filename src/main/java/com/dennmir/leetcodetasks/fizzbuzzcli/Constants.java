@@ -4,7 +4,7 @@
  * Date: 29.10.2017
  * Description: Constants keeper class
  */
-package kenzan.fizzbuzzcli;
+package com.dennmir.leetcodetasks.fizzbuzzcli;
 
 /**
  * @author Denis

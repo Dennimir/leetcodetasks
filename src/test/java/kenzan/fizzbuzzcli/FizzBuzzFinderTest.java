@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.dennmir.leetcodetasks.fizzbuzzcli.Constants;
+import com.dennmir.leetcodetasks.fizzbuzzcli.FizzBuzzFinder;
 import org.junit.Assert;
 import org.junit.Test;
 

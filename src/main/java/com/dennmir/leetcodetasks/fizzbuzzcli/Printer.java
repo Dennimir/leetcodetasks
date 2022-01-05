@@ -4,7 +4,7 @@
  * Date: 29.10.2017
  * Description: Printer
  */
-package kenzan.fizzbuzzcli;
+package com.dennmir.leetcodetasks.fizzbuzzcli;
 
 import java.util.Map;
 import java.util.List;

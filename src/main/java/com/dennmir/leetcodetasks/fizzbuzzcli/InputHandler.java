@@ -4,7 +4,7 @@
  * Date: 29.10.2017
  * Description: Input handler
  */
-package kenzan.fizzbuzzcli;
+package com.dennmir.leetcodetasks.fizzbuzzcli;
 
 import java.io.BufferedReader;
 import java.io.IOException;

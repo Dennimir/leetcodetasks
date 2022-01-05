@@ -2,6 +2,7 @@ package kenzan.fizzbuzzcli;
 
 import java.io.ByteArrayInputStream;
 
+import com.dennmir.leetcodetasks.fizzbuzzcli.App;
 import org.junit.Assert;
 import org.junit.Test;
 import junit.framework.TestCase;
